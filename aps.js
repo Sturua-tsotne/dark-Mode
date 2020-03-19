@@ -34,6 +34,12 @@ darkModel.addEventListener("click", () => {
         backgroundColor: toggle ? "rgb(255,255,255)" : "rgb(22,22,22)"
       },
       "-=700"
+    ) .add(
+      {
+        targets: "h1",
+        color: toggle ? "rgb(22,22,22)" : "rgb(255,255,255)"
+      },
+      "-=700"
     );
   //როცა დაეკლიკება ფოლსი თრუ გახდება და პირიქით
   if (!toggle) {
